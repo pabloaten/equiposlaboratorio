@@ -1,38 +1,112 @@
-.App {
+body{
+  background-color: #333333;
+  font-family: 'Encode Sans', sans-serif;
+} 
+ h1{
+  color: white;
+}
+.titulo{
+  font-weight: bold;
+  font-size: 50px;
+}
+nav{
+  background-color: #333333;
+}
+.menu{
+  color:white;
+  transition: 0.5s;
+} 
+.menu:hover{
+  color: #ff5e1b;
+  transition: 0.5s;
+}
+.menu-img{
+  background-image: url('https://www.asajajaen.com/wp-content/uploads/2018/04/olivar-olivo-hojas-paisaje.jpeg');
+  padding: 200px;
+  
+}
+.mapa-container{
+  background-color: white;
+  
+}
+.mapa-container p{
+  color:black
+}
+.menu-img h1{
+  color: white;
+  font-weight: bold
+}
+#mapa{
+  color:white
+}
+iframe{
+  width: 60%;
+  height: 300px;
+}
+.pie{
+  color: white;
+  background-color:#333333;
+  text-decoration: none;
+}
+.pie a{
+  color: white;
+  text-decoration: none;
+  
+
+}
+.pie li{
+  list-style: none;
+}
+.inicio{
+  background-color:white;
+  text-align:center;
+ 
+
+}
+.inicio a{
+  text-decoration:none;
+  
+}
+/* slider */
+/* Slideshow */
+
+.slideshow {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 500px;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
+.slide {
+  display: inline-block;
+
+  height: 400px;
+  width: 100%;
+  border-radius: 40px;
+}
+
+/* Buttons */
+
+.slideshowDots {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.slideshowDot {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+
+  cursor: pointer;
+  margin: 15px 7px 0px;
+
+  background-color: #c4c4c4;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slideshowDot.active {
+  background-color: #6a0dad;
 }
