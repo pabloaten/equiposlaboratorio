@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/equiposlaboratorio/static/css/main.f5176f14.css",
-    "main.js": "/equiposlaboratorio/static/js/main.fed87632.js",
+    "main.css": "/equiposlaboratorio/static/css/main.0ee77088.css",
+    "main.js": "/equiposlaboratorio/static/js/main.f85dfaa1.js",
     "static/js/787.3f6e1568.chunk.js": "/equiposlaboratorio/static/js/787.3f6e1568.chunk.js",
     "static/media/descarga.jpg": "/equiposlaboratorio/static/media/descarga.bef15ba9690dbf75060c.jpg",
     "static/media/grupo.png": "/equiposlaboratorio/static/media/grupo.2b78d9023e3a2ce235d6.png",
@@ -13,12 +13,12 @@
     "static/media/discovery.png": "/equiposlaboratorio/static/media/discovery.55c79540685a9b2b0fc7.png",
     "static/media/logo.svg": "/equiposlaboratorio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/equiposlaboratorio/index.html",
-    "main.f5176f14.css.map": "/equiposlaboratorio/static/css/main.f5176f14.css.map",
-    "main.fed87632.js.map": "/equiposlaboratorio/static/js/main.fed87632.js.map",
+    "main.0ee77088.css.map": "/equiposlaboratorio/static/css/main.0ee77088.css.map",
+    "main.f85dfaa1.js.map": "/equiposlaboratorio/static/js/main.f85dfaa1.js.map",
     "787.3f6e1568.chunk.js.map": "/equiposlaboratorio/static/js/787.3f6e1568.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5176f14.css",
-    "static/js/main.fed87632.js"
+    "static/css/main.0ee77088.css",
+    "static/js/main.f85dfaa1.js"
   ]
 }
